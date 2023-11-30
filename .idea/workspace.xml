@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d76ed45-683e-4678-8918-e0ea46cf49a8" name="Changes" comment="">
+    <list default="true" id="1b3a0938-4527-41d7-a91e-987e9459dcd8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/GestorLibros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/GestorLibros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/HistorialTransacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/HistorialTransacciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/PrestamoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/PrestamoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/Registro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/UsuarioServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/UsuarioServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,25 +57,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/marme/Desktop/archivos-programacion/University/java/6_Semestre/IntelliJ Idea Ultimate/JspOrmTest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-]]></component>
-  <component name="RunManager" selected="Tomcat Server.tomcat UwU">
-    <configuration name="Tomcat 10.1.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false">
+}]]></component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.16">
+    <configuration name="Tomcat 10.1.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Prueba1-IB_Grupo2_MA:war exploded">
@@ -344,7 +326,7 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat UwU" />
-      <item itemvalue="Tomcat Server.Tomcat 10.1.15" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.16" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.83" />
     </list>
   </component>

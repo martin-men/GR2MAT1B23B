@@ -12,19 +12,20 @@ import jakarta.servlet.http.HttpServletResponse;
 public class UsuarioServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-       getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
-    }
-
-    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         GestorUsuarios gestorUsuarios = new GestorUsuarios();
         gestorUsuarios.inicializarDatos();
         if (gestorUsuarios.validarUsuarioContrasenia(
                 request.getParameter("usuario"), request.getParameter("clave"))) {
-            getServletContext().getRequestDispatcher("/home.jsp").forward(request, response);
+            getServletContext().getRequestDispatcher("/home").forward(request, response);
         } else {
             request.setAttribute("errorIngreso", gestorUsuarios.mostrarErrorIngreso());
             getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
         }
+
+    }
+
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
     }
 
 }

@@ -7,7 +7,7 @@
 <body>
   <h1>BIBLIOTECA</h1>
   <h3>Inicio de sesión</h3>
-  <form action="/usuario" method="POST">
+  <form action="/usuario" method="GET">
     <fieldset>
       Usuario:
       <input type="text" required placeholder="Ingrese su usuario" name="usuario"> <br> <br>
