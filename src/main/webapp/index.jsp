@@ -7,7 +7,7 @@
 <body>
   <h1>BIBLIOTECA</h1>
   <h3>Inicio de sesión</h3>
-  <form action="/home" method="get">
+  <form action="/usuario" method="GET">
     <fieldset>
       Usuario:
       <input type="text" required placeholder="Ingrese su usuario" name="usuario"> <br> <br>
@@ -16,6 +16,7 @@
       <input type="submit" value="Ingresar"/>
     </fieldset>
   </form> <br> <br>
+  <div>${errorIngreso}</div>
   ¿No recuerda su contraseña? <a href="passwordRecovery.jsp">Recupérela</a>
 </body>
 </html>

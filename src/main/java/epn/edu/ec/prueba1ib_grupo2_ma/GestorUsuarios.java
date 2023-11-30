@@ -9,7 +9,7 @@ public class GestorUsuarios {
     private List<Usuario> usuariosRegistrados;
 
     public GestorUsuarios() {
-        this.usuariosRegistrados = new ArrayList<>();
+        this.usuariosRegistrados = new ArrayList<Usuario>();
     }
 
     public void inicializarDatos(){
@@ -20,20 +20,19 @@ public class GestorUsuarios {
         this.usuariosRegistrados.add(new Usuario("demencial15","B@nda1256","00005"));
     }
 
-    public boolean validarUsuario(String usuarioIngresado, String contraseniaIngresada) {
+    public boolean validarUsuario(String usuarioIngresado) {
         for (Usuario usuario : this.usuariosRegistrados) {
-            if (usuario.getNombreUsuario().equals(usuarioIngresado) &&
-                    usuario.getContrasenia().equals(contraseniaIngresada)){
+            if (usuario.getNombreUsuario().equals(usuarioIngresado)){
                 return true;
             }
         }
         return false;
     }
 
-    public boolean validarCodigoRecuperacion(String usuarioIngresado, String codigoIngresado) {
+    public boolean validarUsuarioContrasenia(String usuarioIngresado, String contraseniaIngresada) {
         for (Usuario usuario : this.usuariosRegistrados) {
             if (usuario.getNombreUsuario().equals(usuarioIngresado) &&
-                usuario.getCodigoSeguridad().equals(codigoIngresado)){
+                    usuario.getContrasenia().equals(contraseniaIngresada)){
                 return true;
             }
         }
@@ -44,15 +43,14 @@ public class GestorUsuarios {
         for (Usuario usuario : this.usuariosRegistrados) {
             if (usuario.getNombreUsuario().equals(usuarioIngresado) &&
                     usuario.getCodigoSeguridad().equals(codigoIngresado)){
-                return "<br><div><h2>La contraseña recuperada enviada al correo electrónico de este usuario es: </h2><br>" +
-                        "<p>"+ usuario.getContrasenia() + "</p></div>";
+                return usuario.getContrasenia();
             }
         }
-        return "<br><div><h2>No se puede recuperar la contraseña porque el código ingresado es incorrecto</h2></div>";
+        return "<br><div><h2>¡No se puede recuperar la contraseña porque el código ingresado es incorrecto!</h2></div>";
     }
 
     public String mostrarErrorIngreso(){
-        String resultado = "<br><div><h2>Los datos ingresados son incorrectos</h2></div>";
+        String resultado = "<br><div><h2>Los datos ingresados son incorrectos. Vuelva a ingresarlos correctamente.</h2></div>";
         return resultado;
     }
 

@@ -6,7 +6,7 @@
 <body>
   <h1>BIBLIOTECA</h1>
   <h3>Recuperación de contraseña</h3>
-  <form action="" method="POST">
+  <form action="/contrasenia" method="POST">
     <fieldset>
       Ingrese su nombre de usuario
       <input type="text" required placeholder="Ingrese su nombre de usuario" name="usuario"> <br>
@@ -14,6 +14,7 @@
       <input type="submit" value="Enviar"/>
     </fieldset>
   </form> <br> <br>
+  <div>${errorUsuario}</div>
   <a href="index.jsp">Volver</a>
 </body>
 </html>
