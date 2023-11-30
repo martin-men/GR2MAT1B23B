@@ -6,13 +6,13 @@
 <body>
     <h1>BIBLIOTECA</h1>
     <h3>Recuperación de contraseña</h3>
-    <p>Código a ingresar (no debería imprimirse, pero se lo hace por facilidad de uso y</p><br>
-    <p>dado que es una simulación de envío de código. Copiar y pegar.): ${codigo}</p>
-    <form action="" method="POST">
+    <p>Su contraseña es: ${mensajeCodigo}</p>
+    <form action="/codigoRecuperacion" method="POST">
         <fieldset>
+            Usuario
+            <input type="text" value="${usuario}" name="usuario" readonly />
             Ingrese el código
             <input type="text" required placeholder="Ingrese el código" name="codigo"> <br>
-            ${error} <br> <br>
             <input type="submit" value="Ingresar"/>
         </fieldset>
     </form> <br> <br>
