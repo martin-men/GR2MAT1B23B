@@ -24,6 +24,10 @@ public class GestorLibros {
         libros.add(new Libro("Becoming", "Michelle Obama", "ficción", "9781524763138", false));
     }
 
+    public HistorialTransacciones getHistorial() {
+        return historial;
+    }
+
     public String prestarLibro(int i, String usuario){
         libros.get(i).setEstado(false);
         String salida = generarTicket(i, usuario);

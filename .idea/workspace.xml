@@ -12,11 +12,6 @@
     <list default="true" id="7d76ed45-683e-4678-8918-e0ea46cf49a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/GestorLibros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/GestorLibros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/HistorialTransacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/HistorialTransacciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/PrestamoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/PrestamoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/epn/edu/ec/prueba1ib_grupo2_ma/Registro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,7 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -60,26 +56,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marme/Desktop/archivos-programacion/University/java/6_Semestre/IntelliJ Idea Ultimate/JspOrmTest&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/marme/Desktop/documentos-personales/6-EPNSextoSemestre/Metodologias agiles/Calculator_ContinuousIntegration_MA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Tomcat Server.tomcat UwU">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="epn.edu.ec.prueba1ib_grupo2_ma" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GestorLibrosTest">
+    <configuration name="GestorLibrosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Prueba1-IB_Grupo2_MA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="epn.edu.ec.prueba1ib_grupo2_ma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="epn.edu.ec.prueba1ib_grupo2_ma" />
+      <option name="MAIN_CLASS_NAME" value="epn.edu.ec.prueba1ib_grupo2_ma.GestorLibrosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -430,11 +451,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.GestorLibrosTest" />
       <item itemvalue="Tomcat Server.tomcat UwU" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.15" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.83" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.16" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GestorLibrosTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
