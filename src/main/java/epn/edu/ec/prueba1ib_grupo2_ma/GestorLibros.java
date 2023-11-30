@@ -25,15 +25,15 @@ public class GestorLibros {
     }
 
     public String prestarLibro(int i, String usuario){
-        libros.get(i).setEstado(true);
+        libros.get(i).setEstado(false);
         String salida = generarTicket(i, usuario);
-        historial.agregarRegistro(libros.get(i).getTitulo(), usuario, fechaActual());
+        historial.agregarRegistro(libros.get(i).getTitulo(),fechaActual() ,usuario);
         return salida;
     }
 
     private String generarTicket(int i, String usuario){
-        return "<div class=\"ticket\">\n" +
-                "<div class=\"header\">Ticket de Compra</div>\n" +
+        return "<div class=\"recibo\">\n" +
+                "<div class=\"header\">Recibo</div>\n" +
                 "<div class=\"info\">\n" +
                 "            <p>Fecha:"+ fechaActual() +"</p>\n" +
                 "            <p>Título del libro:" + libros.get(i).getTitulo() +"</p>\n" +
@@ -53,10 +53,12 @@ public class GestorLibros {
         int cont = 0;
 
         for (Libro libro: this.libros) {
-            salida += "<div class=\"producto\">" +
-                    "<label><input type=\"checkbox\" value=\"1\" name=\"" + "item" + cont + "\">" + "Seleccionar" + "</label>";
-            salida += "<p>" + libro.toString() + "</p>";
-            salida += "</div>";
+            if(libro.estado) {
+                salida += "<div class=\"producto\">" +
+                        "<label><input type=\"radio\" value= \"" + cont + "\" name=\"" + "item" + "\">" + "Seleccionar" + "</label>";
+                salida += "<p>" + libro.toString() + "</p>";
+                salida += "</div>";
+            }
             cont++;
         }
         salida += "</div>";
@@ -64,12 +66,9 @@ public class GestorLibros {
     }
 
     public int obtenerLibro(HttpServletRequest request) {
-        int cont = 0;
-        for (Libro l : libros){
-            if(request.getParameter("item"+cont) != null){
-                return cont;
-            }
-        }
-        return -1;
+        return Integer.parseInt(request.getParameter("item"));
+    }
+    public String mostrarHistorial(String usuario){
+        return historial.mostrarHistorial(usuario);
     }
 }
