@@ -1,4 +1,4 @@
-FROM tomcat:9.0.83-jdk21-corretto-al2
+FROM tomcat:10.1.16-jre21-temurin-jammy
 
 COPY target/Prueba1-IB_Grupo2_MA-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/Prueba1-IB_Grupo2_MA-1.0-SNAPSHOT.war
 
